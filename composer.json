@@ -1,0 +1,21 @@
+{
+    "name": "merchantprotocol/multithreaded-smtp",
+    "description": "Designed for sending cold email at scale.",
+    "type": "library",
+    "require": {
+        "react/socket": "^1.12",
+        "swiftmailer/swiftmailer": "~6.0"
+    },
+    "license": "Commercial",
+    "autoload": {
+        "psr-4": {
+            "Merchantprotocol\\MultithreadedSmtp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonathon Byrdziak",
+            "email": "jonathonbyrd@gmail.com"
+        }
+    ]
+}
