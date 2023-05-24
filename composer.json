@@ -4,7 +4,9 @@
     "type": "library",
     "require": {
         "react/socket": "^1.12",
-        "swiftmailer/swiftmailer": "~6.0"
+        "swiftmailer/swiftmailer": "~6.0",
+        "react/event-loop": "^1.4",
+        "react/promise": "^2.10"
     },
     "license": "Commercial",
     "autoload": {
@@ -15,7 +17,7 @@
     "authors": [
         {
             "name": "Jonathon Byrdziak",
-            "email": "jonathonbyrd@gmail.com"
+            "email": "jonathon@byrdziak.com"
         }
     ]
 }
